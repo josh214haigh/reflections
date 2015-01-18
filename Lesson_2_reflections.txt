@@ -7,3 +7,5 @@ How is the staging area different from the working directory and the repository?
 
 The working directory contains the current files, the repository contains past versions of theses files, as ordered by commits. The staging area is 
 the user choosing which files are necessary to update for the single logical change required for the upcoming commit. 
+
+testing notepad and git commits
