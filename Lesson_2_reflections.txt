@@ -17,3 +17,8 @@ What are some situations when branches would be helpful in keeping your history 
 Branches help by offering the opportunity to try out new features or code without altering your main version that you may not want to change, depending on how
 this new branch works out.
 
+How do the diagrams help you visualize the branch structure?
+
+By showing where the branches diverge from each other, whether there are any unreachable commits, and how many commits have been made on each branch since
+diverging from another.
+
