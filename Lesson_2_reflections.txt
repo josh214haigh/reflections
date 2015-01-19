@@ -27,3 +27,8 @@ What is the result of merging two branches together? Why do we represent it in t
 Merging two branches takes all of the changes both branches have made from a common ancestor commit, and incorporates all changes. The diagram shows it as having
 two parents, as it does have characteristics from both branches.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging, when there are no conflicts is like magic! Automatically incorporates all changes from both branches to make something better than either is
+great. When it doesn't work automatically, Git flags the areas that have changed letting you do the merge manually. This still saves time, but is not quite as
+magical as the automatic merge. I don't see any downside.
