@@ -4,3 +4,8 @@ Several reasons, the most obvious is to allow others to collaborate on your work
 Another is to allow you to easily work from several computers depending on where you are without transferring the files
 across each time you change computer. The most basic reason is to give yourself a backup in case of computer breakdown or hard drive crashes.
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You might be working on an alternative to the main branch that is on GitHub and not want to have changes forced on you when what you want to do is 
+to create an alternative. Or you could save space by not downloading changes that are made to branches that you are not working on.
+
