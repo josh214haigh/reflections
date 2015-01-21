@@ -21,3 +21,11 @@ What is the benefit of having a copy of the last known state of the remote store
 If there are any further commits to both the local and remote versions, we have a common ancestor ready for us, to merge local changes with remote changes 
 if required.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+It occurs to me that if Git and GitHub didn't exist, someone would need to create something nearly identical. Collaboration without them would probably involve
+a lot of confusion. I would have one person in charge of the main branch with others communicating proposed changes to this person, which would then either be
+accepted or rejected by them. We would still be able to use version control and compare differences between different versions, so much of the practicality of 
+git would be available to us. There could still be an online copy of the most recent main branch for others to copy or download to work on. Git and GitHub just
+make it easier.
+
