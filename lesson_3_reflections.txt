@@ -15,3 +15,9 @@ Branches are used to develop different features or versions of the code that you
 remote computer, such as with GitHub. Clones are used to copy repos from computer to computer, so that you have a common starting point.
 Forks are essentially clones from a different GitHub account to your own GitHub account. Forks are used to get a copy
 of someone else's work so you can try out new things that the original author may not want or accept.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+If there are any further commits to both the local and remote versions, we have a common ancestor ready for us, to merge local changes with remote changes 
+if required.
+
