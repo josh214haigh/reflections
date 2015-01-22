@@ -29,3 +29,9 @@ accepted or rejected by them. We would still be able to use version control and 
 git would be available to us. There could still be an online copy of the most recent main branch for others to copy or download to work on. Git and GitHub just
 make it easier.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Making changes in master makes the update process a lot easier for you as an individual, but doesn't allow others to check your changes before you update 
+the master branch in GitHub. It also means that you will not be able to easily update your master branch with the changes that others are making on GitHub.
+Provided pull requests are used to check changes before merging with the master branch, there will be no conficts when updating the master branch on anyone's 
+computer, only when trying to merge the new branches back in to the master branch (after pull requests so others can check your work).
